@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### 4. Configure Environment Variables
 Create a .env file in the project root and add:
 ```ini
-OBSIDIAN_PATH=~/obsidian/Journal/01\ Daily
+OBS_PATH=~/obsidian/Journal/01\ Daily
 GARMIN_EMAIL=your-email@example.com  
 GARMIN_PASSWORD=your-secure-password  
 ```

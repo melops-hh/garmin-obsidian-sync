@@ -9,7 +9,6 @@ load_dotenv()
 OBS_PATH = os.getenv("OBS_PATH")  # Path to Obsidian Journal
 email = os.getenv("GARMIN_EMAIL")
 password = os.getenv("GARMIN_PASSWORD")
-print(OBS_PATH,email,password)
 
 # --- Authenticate Garmin API ---
 client = Garmin(email, password)
