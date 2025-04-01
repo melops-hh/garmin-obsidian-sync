@@ -153,9 +153,9 @@ def append_to_obsidian(exercise_logs, sleep_logs, note_path):
 
     # --- Insert Sleep Logs ---
     try:
-        log_index = note_content.index("### Log morning\n") + 1
+        log_index = note_content.index("> [!log-morning]- Log Morning\n") + 1
     except ValueError:
-        note_content.append("\n### Log morning\n")
+        note_content.append("\n> [!log-morning]- Log Morning\n")
         log_index = len(note_content)
 
     print("🤖 Adding sleep logs to daily note")
